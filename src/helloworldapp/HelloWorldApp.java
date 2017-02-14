@@ -5,6 +5,8 @@
  */
 package helloworldapp;
 
+import java.text.MessageFormat;
+
 /**
  *
  * @author Brian Snyder
@@ -16,6 +18,7 @@ public class HelloWorldApp {
      */
     public static void main(String[] args) {
         System.out.println("Hello world!");
+        System.out.println(String.format("string one %s, string two $%d", "testing",42));
     }
     
 }
